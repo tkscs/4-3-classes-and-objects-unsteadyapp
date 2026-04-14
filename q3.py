@@ -5,7 +5,7 @@ class Cat:
     def __str__(self):
         return f"a Cat names {self.name}"
     def speak(self):
-        print(f"{sefl.name} says meow!")
+        print(f"{self.name} says meow!")
 
 ella = Cat("Ella")
 ella.speak()

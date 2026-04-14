@@ -1,9 +1,9 @@
-class Cat:
-    """a cat"""
+class Dog:
+    """a dog"""
     def __init__(self, name):
         self.name = name
     def speak(self):
-        print(f"{sefl.name} says meow!")
+        print(f"{self.name} says woof!")
 
-ella = Cat("Ella")
-ella.speak()
+boba = Dog("Boba")
+boba.speak()
